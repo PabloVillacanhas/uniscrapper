@@ -1,9 +1,10 @@
-from .models.models import Subject
+from scrappers import usc
 
 
 def main():
-    subject = Subject("Fisio3", "6", 3)
-    print(subject)
+    array = usc.scrapper()
+    for s in array:
+        print(s)
 
 
 if __name__ == "__main__":

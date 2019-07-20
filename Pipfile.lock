@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e71f5a55d7ee60011c5442416d476eca75f8d6022f68cfcd6261c0a01c6cb5a0"
+            "sha256": "88a0a6dcc901900a681a1b3ee3c0032695f9b16e4b269605e2c2c2d741f45d70"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,13 +16,28 @@
         ]
     },
     "default": {
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:034740f6cb549b4e932ae1ab975581e6103ac8f942200a0e9759065984391858",
+                "sha256:945065979fb8529dd2f37dbb58f00b661bdbcbebf954f93b32fdf5263ef35348",
+                "sha256:ba6d5c59906a85ac23dadfe5c88deaf3e179ef565f4898671253e50a78680718"
+            ],
+            "index": "pypi",
+            "version": "==4.7.1"
+        },
         "mysql-connector": {
             "hashes": [
-                "sha256:1733e6ce52a049243de3264f1fbc22a852cb35458c4ad739ba88189285efdf32",
-                "sha256:4a982d9ca1610d28c64929b0ef43bd6b3ce4f2fadb1ab79008a0b3a5245fe79d"
+                "sha256:1733e6ce52a049243de3264f1fbc22a852cb35458c4ad739ba88189285efdf32"
             ],
             "index": "pypi",
             "version": "==2.2.9"
+        },
+        "soupsieve": {
+            "hashes": [
+                "sha256:72b5f1aea9101cf720a36bb2327ede866fd6f1a07b1e87c92a1cc18113cbc946",
+                "sha256:e4e9c053d59795e440163733a7fec6c5972210e1790c507e4c7b051d6c5259de"
+            ],
+            "version": "==1.9.2"
         }
     },
     "develop": {}
