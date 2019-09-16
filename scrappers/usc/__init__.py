@@ -1,3 +1,4 @@
 __name__ = "usc"
 
-from .scrapper import scrapper
+from .uscsubjectscrapper import USCSubjectScrapper
+from .usccareersscrapper import USCCareerScrapper
